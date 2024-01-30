@@ -109,10 +109,6 @@ ul {
     border-radius: 50%;
 }
 
-    {
-    margin-bottom: 75px;
-}
-
 .headline-btn {
     color: var(--main_color-100);
     background-color: var(--main_color-500);
@@ -233,7 +229,6 @@ img {
 
 .contacts-inner {
     font-weight: 400;
-
 }
 
 .contacts-inner {
@@ -265,7 +260,6 @@ img {
 }
 
 .contacts-input::placeholder {
-    /* font-size: 14px; */
     line-height: 18px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -319,9 +313,9 @@ img {
 
 @media (max-width: 1200px) {
 
-    * {
-        /* background: #218BD6; */
-    }
+    /* * {
+        background: #218BD6;
+    } */
 
     .header a {
         font-size: 18px;
@@ -329,7 +323,6 @@ img {
 
     .contacts-inner {
         display: block;
-        /* flex-direction: column; */
     }
 
     .contacts-form {
@@ -353,9 +346,9 @@ img {
 
 @media (max-width: 900px) {
 
-    * {
-        /* background: #21D6A5; */
-    }
+    /* * {
+        background: #21D6A5;
+    } */
 
     .menu {
         display: none;
@@ -488,9 +481,9 @@ img {
 
 @media (max-width: 670px) {
 
-    * {
-        /* background: purple; */
-    }
+    /* * {
+        background: purple;
+    } */
 
     .contacts-input {
         border-bottom: 9px solid var(--main_color-600);
@@ -508,9 +501,10 @@ img {
 }
 
 @media (max-width: 400px) {
-    * {
-        /* background: yellow; */
-    }
+
+    /* * {
+        background: yellow;
+    } */
 
     .title {
         font-size: 28px;
@@ -534,7 +528,6 @@ img {
     .folder-title,
     .contacts-title {
         font-size: 20px;
-        /* line-height: 20px; */
     }
 
     .folder-item {
@@ -542,7 +535,6 @@ img {
     }
 
     .folder svg {
-        /* margin-top: -80px; */
         margin-bottom: 0px;
         width: 90px;
     }
@@ -557,17 +549,13 @@ img {
         line-height: 5px;
         padding: 15px 40px 12px;
     }
-
-    .contacts-form {
-        /* padding: 5px 0; */
-    }
 }
 
 @media (max-width: 350px) {
 
-    * {
-        /* background: red; */
-    }
+    /* * {
+        background: red;
+    } */
 
     .title {
         font-size: 25px;
