@@ -109,7 +109,7 @@ ul {
     border-radius: 50%;
 }
 
-.headline-img {
+    {
     margin-bottom: 75px;
 }
 
@@ -213,6 +213,7 @@ img {
 
 .folder-item svg {
     margin-bottom: 0 20px;
+    width: 150px;
 }
 
 .folder-item h3 {
@@ -304,23 +305,11 @@ img {
     padding: 50px 0;
 }
 
-
-/* @media (max-width: 1000px) {
-    .header {
-        background: yellow;
-    }
-} */
-
-/* @media (max-width: 1200px) {} */
-
 @media (max-width: 900px) {
 
-    /* .new .new-info,
-    .new-text,
-    .images-new {
-        max-width: 80%;
-        min-width: 40%;
-    } */
+    * {
+        /* background: #21D6A5; */
+    }
 
     .title {
         font-size: 34px;
@@ -340,11 +329,103 @@ img {
 
     .headline-btn {
         font-size: 16px;
-        line-height: 22px;
+        line-height: 18px;
         padding: 22px 80px 19px;
+    }
+
+    .images-new {
+        display: none;
+    }
+
+    .new-title,
+    .color-title,
+    .folder-title {
+        font-size: 26px;
+        line-height: 20px;
+    }
+
+    .contacts-title {
+        font-size: 26px;
+    }
+
+    .new-text p,
+    new-text b {
+        max-width: 100%;
+    }
+
+    .folder-title {
+        margin-top: -10px;
+    }
+
+    .folder-list {
+        flex-wrap: wrap;
+    }
+
+    .folder-item {
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+
+    .folder {
+        padding-bottom: 40px;
     }
 }
 
-/* @media (max-width: 700px) {
-    
-} */
+@media (max-width: 400px) {
+    * {
+        /* background: yellow; */
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .headline {
+        padding: 60px 0 20px;
+    }
+
+    .headline-btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 18px 62px 15px;
+        margin-top: -20px;
+    }
+
+    .new-title,
+    .color-title,
+    .folder-title,
+    .contacts-title {
+        font-size: 20px;
+        /* line-height: 20px; */
+    }
+
+    .folder-item {
+        width: 100%;
+    }
+
+    .folder svg {
+        /* margin-top: -80px; */
+        margin-bottom: 0px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    * {
+        /* background: red; */
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .headline-btn {
+        font-size: 12px;
+        line-height: 10px;
+        padding: 17px 52px 15px;
+        margin-top: -20px;
+    }
+}
