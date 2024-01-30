@@ -3,18 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
   <link rel="stylesheet" href="normalize.css" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
   <link rel="stylesheet" href="style.css" />
   <title>Hi, im MW</title>
-  <script defer src="script.js"></script>
+  <script defer src="scripts/menu_click.js"></script>
 </head>
 
 <body>
     <header class="header">
       <div class="container">
         <nav class="nav">
+          <button class="menu-btn">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+          </button>
           <ul class="menu">
             <li class="menu-item">
               <a href="index.html" class="menu-link">Что нового</a>
@@ -158,6 +164,37 @@
       <section class="contacts">
         <div class="container">
           <div class="contacts-inner">
+            <svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="600" height="600" rx="40" fill="#DDEBF5"/>
+              <rect width="600" height="600" rx="40" fill="url(#paint0_linear_18_17)"/>
+              <path d="M108 99H441C468.614 99 491 121.386 491 149V482H108V99Z" fill="url(#paint1_linear_18_17)"/>
+              <path d="M150 194H400C427.614 194 450 216.386 450 244V378H150V194Z" fill="url(#paint2_linear_18_17)"/>
+              <path d="M150 194H400C427.614 194 450 216.386 450 244V283C332.843 283 279.5 348.5 150 283V194Z" fill="url(#paint3_linear_18_17)"/>
+              <path d="M201 103L212.226 137.549H248.553L219.164 158.902L230.389 193.451L201 172.098L171.611 193.451L182.836 158.902L153.447 137.549H189.774L201 103Z" fill="#CEEBE2"/>
+              <path d="M181.5 327L190.368 354.294L219.067 354.294L195.849 371.162L204.718 398.456L181.5 381.588L158.282 398.456L167.151 371.162L143.933 354.294L172.632 354.294L181.5 327Z" fill="#8ECAF5"/>
+              <path d="M448 219L455.184 241.111H478.434L459.625 254.777L466.809 276.889L448 263.223L429.191 276.889L436.375 254.777L417.566 241.111H440.816L448 219Z" fill="#F7E8E1"/>
+              <path d="M539 454L543.49 467.82H558.021L546.265 476.361L550.756 490.18L539 481.639L527.244 490.18L531.735 476.361L519.979 467.82H534.51L539 454Z" fill="#B0BAC1"/>
+              <path d="M73.5 130L76.0819 137.946H84.4371L77.6776 142.857L80.2595 150.804L73.5 145.893L66.7405 150.804L69.3224 142.857L62.5628 137.946H70.9181L73.5 130Z" fill="#E0E3E6"/>
+              <defs>
+              <linearGradient id="paint0_linear_18_17" x1="426" y1="168" x2="-2.57492e-05" y2="600" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#0D1B25"/>
+              <stop offset="1"/>
+              </linearGradient>
+              <linearGradient id="paint1_linear_18_17" x1="379.93" y1="206.24" x2="108" y2="482" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#ABD6F5"/>
+              <stop offset="1" stop-color="#79C1F5"/>
+              </linearGradient>
+              <linearGradient id="paint2_linear_18_17" x1="363" y1="245.52" x2="247.287" y2="436.84" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#B0BAC1"/>
+              <stop offset="1" stop-color="#596C7A"/>
+              </linearGradient>
+              <linearGradient id="paint3_linear_18_17" x1="363" y1="218.92" x2="328.939" y2="335.348" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#B0BAC1"/>
+              <stop offset="1" stop-color="#B0BAC1"/>
+              </linearGradient>
+              </defs>
+              </svg>
+          <!-- <img alt="contact me" src="images/profile.jpg"> -->
             <form class="contacts-form" action="">
               <h2 class="contacts-title">
                 Связаться со мной можно оставив информацию здесь
@@ -170,37 +207,6 @@
                 <button type="submit">ОТПРАВИТЬ</button>
               </h2>
             </form>
-          <!-- <img alt="contact me" src="images/profile.jpg"> -->
-          <svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="600" height="600" rx="40" fill="#DDEBF5"/>
-            <rect width="600" height="600" rx="40" fill="url(#paint0_linear_18_17)"/>
-            <path d="M108 99H441C468.614 99 491 121.386 491 149V482H108V99Z" fill="url(#paint1_linear_18_17)"/>
-            <path d="M150 194H400C427.614 194 450 216.386 450 244V378H150V194Z" fill="url(#paint2_linear_18_17)"/>
-            <path d="M150 194H400C427.614 194 450 216.386 450 244V283C332.843 283 279.5 348.5 150 283V194Z" fill="url(#paint3_linear_18_17)"/>
-            <path d="M201 103L212.226 137.549H248.553L219.164 158.902L230.389 193.451L201 172.098L171.611 193.451L182.836 158.902L153.447 137.549H189.774L201 103Z" fill="#CEEBE2"/>
-            <path d="M181.5 327L190.368 354.294L219.067 354.294L195.849 371.162L204.718 398.456L181.5 381.588L158.282 398.456L167.151 371.162L143.933 354.294L172.632 354.294L181.5 327Z" fill="#8ECAF5"/>
-            <path d="M448 219L455.184 241.111H478.434L459.625 254.777L466.809 276.889L448 263.223L429.191 276.889L436.375 254.777L417.566 241.111H440.816L448 219Z" fill="#F7E8E1"/>
-            <path d="M539 454L543.49 467.82H558.021L546.265 476.361L550.756 490.18L539 481.639L527.244 490.18L531.735 476.361L519.979 467.82H534.51L539 454Z" fill="#B0BAC1"/>
-            <path d="M73.5 130L76.0819 137.946H84.4371L77.6776 142.857L80.2595 150.804L73.5 145.893L66.7405 150.804L69.3224 142.857L62.5628 137.946H70.9181L73.5 130Z" fill="#E0E3E6"/>
-            <defs>
-            <linearGradient id="paint0_linear_18_17" x1="426" y1="168" x2="-2.57492e-05" y2="600" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#0D1B25"/>
-            <stop offset="1"/>
-            </linearGradient>
-            <linearGradient id="paint1_linear_18_17" x1="379.93" y1="206.24" x2="108" y2="482" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#ABD6F5"/>
-            <stop offset="1" stop-color="#79C1F5"/>
-            </linearGradient>
-            <linearGradient id="paint2_linear_18_17" x1="363" y1="245.52" x2="247.287" y2="436.84" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#B0BAC1"/>
-            <stop offset="1" stop-color="#596C7A"/>
-            </linearGradient>
-            <linearGradient id="paint3_linear_18_17" x1="363" y1="218.92" x2="328.939" y2="335.348" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#B0BAC1"/>
-            <stop offset="1" stop-color="#B0BAC1"/>
-            </linearGradient>
-            </defs>
-            </svg>
         </div>
         </div>
       </section>
